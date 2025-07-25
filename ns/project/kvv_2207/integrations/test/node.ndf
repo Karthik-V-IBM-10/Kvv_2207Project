@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">siqadeveloper</value>
-    <value name="createdDate">1753164257934</value>
-    <value name="lastModifiedDate">1753164257934</value>
+    <value name="lastModifiedBy">siqabvt</value>
+    <value name="lastModifiedDate">1753451072553</value>
     <value name="displayName">test</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -63,6 +62,22 @@
           <value name="displayName">debugLog</value>
           <value name="serviceName">pub.flow:debugLog</value>
           <value name="transformerSupport">false</value>
+        </record>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Math</value>
+          <value name="groupName">math</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">addInts</value>
+          <value name="serviceName">pub.math:addInts</value>
+          <value name="transformerSupport">true</value>
         </record>
       </record>
     </record>
